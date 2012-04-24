@@ -55,7 +55,7 @@
   <icon rim:hover="false" src="resources/icon.png" />
   <icon rim:hover="true" src="resources/icon.png" />
 
-  <rim:loadingScreen backgroundColor="#cccccc"
+  <rim:loadingScreen backgroundColor="#CCCCCC"
                      foregroundImage="resources/loading_foreground.png"
 		     onFirstLaunch="true">
     <rim:transitionEffect type="fadeOut" />
