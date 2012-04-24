@@ -1,0 +1,71 @@
+.btnAction {
+    background-size: 40px 40px;
+    width: 43px;
+    height: 43px;
+}
+
+.btnSearch{
+    background: url(../images/search.png) !important;
+}
+
+.btnMap{
+    background: url(../images/map.png) !important;
+}
+
+.btnList{
+    background: url(../images/listmode.png) !important;
+}
+
+.btnOffers{
+    background: url(../images/offers.png) !important;
+}
+
+.btnBack {
+    background: url(../images/back.png) !important;
+}
+.location_img {
+    height: 75px;
+    width: 75px;
+}
+
+.location_title{
+    font-weight: bold;
+    text-align: left;
+}
+
+.location_desc{
+    text-align: left;
+    font-size: smaller;
+}
+
+.viewport-toolbar {
+    background: url(../images/header.png) no-repeat #000;
+    background-position: top right;
+}
+
+#offer_panel{
+    background: url(../images/voucher_screen.png) no-repeat;
+    background-size: 100%;
+}
+
+.linkAsText {
+    text-decoration: none !important;
+    color: #000 !important;
+}
+
+.product_toolbar{
+    background: #000 !important;
+}
+.backBtn{
+    background: url(../images/backbutton.png) !important;
+    width: 56px;
+    height: 48px;
+}
+
+.searchpopup input{
+    background-color: #999 !important;
+}
+
+.showcase_tabBar{
+    font-size: smaller;
+}
