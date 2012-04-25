@@ -18,16 +18,17 @@
   <license href="http://opensource.org/licenses/alphabetical">
   </license>
 
-   <author href="http://www.iguideireland.com" email="admin@iguidema.com">
-        iGuide Mobile Apps Ltd.
-   </author>
+<author email="aidan.carroll@gmail.com">
+		Aidan Carroll
+	</author>
 
-  <preference name="disable-cursor" value="true" />
+	<license href="http://opensource.org/licenses/alphabetical">
+  </license>
+
   <preference name="orientation" value="portrait" />
+  <preference name="disable-cursor" value="true" />
   
-  <gap:splash src="resources/images/HTML5-splash.png" />
-  
-  <!-- Cordova API -->
+	<!-- Cordova API -->
   <feature id="blackberry.system" required="true" version="1.0.0.0" />
   <feature id="org.apache.cordova" required="true" version="1.0.0" />
   <feature id="blackberry.find" required="true" version="1.0.0.0" />
@@ -55,6 +56,7 @@
   <icon rim:hover="false" src="resources/icon.png" />
   <icon rim:hover="true" src="resources/icon.png" />
 
+  <rim:orientation mode="portrait" />
   <rim:loadingScreen backgroundColor="#000000"
                      foregroundImage="resources/loading_foreground.png"
 		     onFirstLaunch="true">
@@ -69,5 +71,4 @@
     <rim:permit>access_shared</rim:permit>
     <rim:permit>read_geolocation</rim:permit>
   </rim:permissions>
-
 </widget>
