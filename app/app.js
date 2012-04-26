@@ -21,11 +21,11 @@ App = Ext.regApplication({
     debug : false,
     onlineImageFolder : 'http://www.iguidecarlingfordmourne.com/WEBFILES/',
     offlineImage : 'resources/images/avatar.jpg',
-    dataUrl : 'http://www.iguidecarlingfordmourne.com/xml/initialb.php?xu=iguide&xp=iguide&seq=initialb&tname=initialb&langprefix=eng',
-	//'data/initialb.php?xu=iguide&xp=iguide&seq=initialb&tname=initialb&langprefix=eng',
+    dataUrl : 'data/initialb.php.xml?xu=iguide&xp=iguide&seq=initialb&tname=initialb&langprefix=eng',
+	//'http://www.iguidecarlingfordmourne.com/xml/initialb.php?xu=iguide&xp=iguide&seq=initialb&tname=initialb&langprefix=eng',
 	//
-    updateUrl : 'http://www.iguidecarlingfordmourne.com/xml/updateb.php?xu=iguide&xp=iguide&tname=updateb&langprefix=eng&seq=',
-	//'data/updateb.php?xu=iguide&xp=iguide&tname=updateb&langprefix=eng&seq=',
+    updateUrl : 'data/updateb.php.xml?xu=iguide&xp=iguide&tname=updateb&langprefix=eng&seq=',
+	//'http://www.iguidecarlingfordmourne.com/xml/updateb.php?xu=iguide&xp=iguide&tname=updateb&langprefix=eng&seq=',
 	//
     //This variables must be included in the settings
     locationError : "Location Error",
